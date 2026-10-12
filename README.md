@@ -18,9 +18,9 @@ or newer, or with the version that lowered them.
 
 ## Installation
 
-From a clone of this repository:
-
 ```bash
+git clone https://github.com/meta-pytorch/torchinfer.git
+cd torchinfer
 pip install --extra-index-url https://download.pytorch.org/whl/cu130 .
 export CXX=/usr/bin/clang++-20
 export TORCH_USE_RTLD_GLOBAL=YES
